@@ -17,3 +17,5 @@ This is a turn based two player game. Who will play for the light side as BB8 an
 (Member linkedin account links)
 [Georgina Carlisle](https://www.linkedin.com/in/georgina-carlisle-617b58268/)
 (Be sure to credit any assets that are not yours)
+
+[Selam Yigezu] (https://www.linkedin.com/in/selam-shimelis-8b06a7173/)
