@@ -1,16 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
+    integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/game-style.css">
     <title>BB8 vs BB9E</title>
 </head>
+
 <body>
     <h1>Game</h1>
     <a href="index.html">Into</a>
     <a href="game.html">Game</a>
     <a href="about.html">About</a>
-    
+
+    <section>
+        <div class="game-container" oncontextmenu="return false;">
+            <table>
+                <tr id="start">
+                    <td>
+                        <h4 class="text-light">START</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img id="a" src="assets/images/corner.png"></td>
+                    <td><img id="b" src="assets/images/line.png"></td>
+                    <td><img id="c" src="assets/images/corner.png"></td>
+                </tr>
+                <tr>
+                    <td><img id="d" src="assets/images/corner.png"></td>
+                    <td><img id="e" src="assets/images/line.png"></td>
+                    <td><img id="f" src="assets/images/corner.png"></td>
+                </tr>
+                <tr>
+                    <td><img id="g" src="assets/images/corner.png"></td>
+                    <td><img id="h" src="assets/images/line.png"></td>
+                    <td><img id="i" src="assets/images/corner.png"></td>
+                </tr>
+                <tr id="finish">
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <h4 class="text-light">FINISH</h4>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/game-logic.js"></script>
 </body>
+
 </html>
