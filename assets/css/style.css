@@ -82,20 +82,32 @@ body {
   margin: 0;
 }
 
-#container-instructions {
+#page-instructions {
   color: #ffc909;
   font-size: 1.2rem;
   background: rgb(20,20,20);
   margin: 0;
   height: 100%;
-  padding: 1rem 4rem;
+  padding: 2rem;
   text-align: center;
 }
 
-#container-instructions > h2 {
+#container-heading {
+  position: relative;
   font-size: 2.5rem;
   font-weight: bold;
+  z-index: 2;
 }
+
+#container-heading > h2 {
+  margin: 0;
+}
+
+#container-game-story {
+  width: 90%;
+  clear: both;
+  margin: 2rem;
+} 
 
 #container-instructions > h3 {
   font-size: 2rem;
@@ -113,4 +125,43 @@ body {
   margin: 0 auto;
   width: 50%;
   padding: 1rem;
+}
+
+#face-off-image {
+  width: 50%;
+  position: relative;
+  bottom: 4rem;
+  z-index: 1;
+}
+
+#BB9E-choice {
+  float: left;
+  width: 20%;
+  border-radius: 5px;
+  padding: 0 1rem;
+  background-color: black;
+  color: red;
+  margin: 2rem 0;
+}
+
+#BB8-choice {
+  float: right;
+  width: 20%;
+  border-radius: 5px;
+  padding: 0 1rem;
+  background-color: white;
+  color: orange;
+  margin: 1rem 0;
+}
+
+@media screen and (max-width:900px) {
+  #face-off-image {
+    width: 80%;
+  }
+  #BB9E-choice {
+    width: 40%;
+  }
+  #BB8-choice {
+    width: 40%;
+  }
 }
