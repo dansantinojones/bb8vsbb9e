@@ -85,11 +85,12 @@ body {
 #page-instructions {
   color: #ffc909;
   font-size: 1.2rem;
-  background: rgb(20,20,20);
+  background: #050304;
   margin: 0;
   height: 100%;
-  padding: 2rem;
   text-align: center;
+  margin-bottom: 2rem;
+  padding: 2rem 2rem 0 2rem;
 }
 
 #container-heading {
@@ -108,15 +109,6 @@ body {
   clear: both;
   margin: 2rem;
 } 
-
-#container-instructions > h3 {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-#list-instructions {
-  text-align: left;
-}
 
 .player-choice {
   color: rgb(20,20,20);
@@ -152,6 +144,29 @@ body {
   background-color: white;
   color: orange;
   margin: 1rem 0;
+}
+
+#supremacy-image {
+  width: 55%;
+  float: left;
+  margin: 2rem 0;
+}
+
+#list-instructions {
+  width: 40%;
+  float: right;
+  text-align: left;
+  padding: 1rem;
+}
+
+#list-instructions > ol > li {
+  margin-top: 0.75rem;
+}
+
+#list-instructions > h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
 }
 
 @media screen and (max-width:900px) {
