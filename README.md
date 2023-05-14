@@ -1,21 +1,51 @@
-# BB8 versus BB9E
+# Battle of the Droids
 
 (Screen Shot to be added here)
 
-BB8 and BB9E are facing off against each. They are locked in battle trying to send a power surge towards each other. Who will come out triamphant!
+(link to live site here)
 
-## Controls & game rules
+## Game scenario
 
-This is a turn based two player game. Who will play for the light side as BB8 and who will play for the dark side as BB9E?
+The last hope of the Resistance is dying!
 
-### Deployed link
+Rose and Finn’s daring plan to disable the First Order’s hyperspace tracker and allow the resistance fleet to escape has been thwarted and they have been captured.
 
-(Link to deployed site and deployment instructions here)
+BB-8, who has escaped capture attempts to hack into the main system of Snoke’s flag ship, the Supremacy, to try and find a means of rescuing Finn and Rose.
+
+ But, he is intercepted by BB-9E …
+
+### About the game
+
+BB-8 and BB-9E are logged into the main system of Snoke’s flagship, the Supremacy, vying to gain control. Who will come out on top? Will it be a victory for the Resistance or will the First Order maintain control?
+
+Play on behalf of the resistance and help BB-8 throw off BB-9E so he can find a means of rescuing Finn and Rose from the vile First Order?
+
+Play on behalf of the First Order and help BB-9E to stop and disable the plucky resistance droid?
+
+### How to play
+
+- Decide who is going to be who
+- You will take it in turns with BB-8 going first
+- Click on the puzzle elements to rotate until the wires are all correctly joined up.
+- ? Extra info about turning taking ?
+- The winner is the ........
+
+## Game deployment
+
+(Deployment explanation)
 
 ## Credits
 
-(Member linkedin account links)
+#### Hackthon team members
+[Andrew Kennedy]()
+[Aws Sabah Gheni]()
+[Dan Santino Jones](https://www.linkedin.com/in/dan-santino-jones-b1484a181/)
 [Georgina Carlisle](https://www.linkedin.com/in/georgina-carlisle-617b58268/)
-(Be sure to credit any assets that are not yours)
+[Sediqa Hadid Talibi]()
+[Selam Yigezu](https://www.linkedin.com/in/selam-shimelis-8b06a7173/)
 
-[Selam Yigezu] (https://www.linkedin.com/in/selam-shimelis-8b06a7173/)
+#### Further credits
+Used for educational purposes only
+
+image-face-off.jpg - [Sphero published by Polygon](https://www.polygon.com/2017/8/31/16233874/star-wars-bb-9e-evil-bb-8-droid-the-last-jedi)
+image-supremacy.jpg - [Disney Fandom - The Disney Wiki](https://disney.fandom.com/wiki/Supremacy)
