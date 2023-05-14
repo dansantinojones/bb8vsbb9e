@@ -8,48 +8,141 @@
     <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
     integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/game-style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <title>BB8 vs BB9E</title>
 </head>
 
 <body>
-    <h1>Game</h1>
-    <a href="index.html">Into</a>
-    <a href="game.html">Game</a>
-    <a href="about.html">About</a>
 
-    <section>
-        <div class="game-container" oncontextmenu="return false;">
-            <table>
-                <tr id="start">
-                    <td>
-                        <h4 class="text-light">START</h4>
-                    </td>
-                </tr>
-                <tr>
-                    <td><img id="a" src="assets/images/corner.png"></td>
-                    <td><img id="b" src="assets/images/line.png"></td>
-                    <td><img id="c" src="assets/images/corner.png"></td>
-                </tr>
-                <tr>
-                    <td><img id="d" src="assets/images/corner.png"></td>
-                    <td><img id="e" src="assets/images/line.png"></td>
-                    <td><img id="f" src="assets/images/corner.png"></td>
-                </tr>
-                <tr>
-                    <td><img id="g" src="assets/images/corner.png"></td>
-                    <td><img id="h" src="assets/images/line.png"></td>
-                    <td><img id="i" src="assets/images/corner.png"></td>
-                </tr>
-                <tr id="finish">
-                    <td></td>
-                    <td></td>
-                    <td>
-                        <h4 class="text-light">FINISH</h4>
-                    </td>
-                </tr>
-            </table>
+    <!-- Main Heading -->
+    <a href="index.html">Into</a>
+    <a href="instructions.html">How to play</a>
+    <a href="game.html">Game</a>
+
+    <div class="container-fluid">
+        <!-- Mobile View  -->
+        <div class="row">
+            <div class="col hidden-desktop justify-content-center">
+                <section>
+                    <div class="game-container" oncontextmenu="return false;">
+                        <table>
+                            <tr id="start">
+                                <td>
+                                    <h4 class="text-light">START</h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img id="a" src="assets/images/puzzle-1-a.jpg"></td>
+                                <td><img id="b" src="assets/images/puzzle-1-b.jpg"></td>
+                                <td><img id="c" src="assets/images/puzzle-1-c.jpg"></td>
+                            </tr>
+                            <tr>
+                                <td><img id="d" src="assets/images/puzzle-1-d.jpg"></td>
+                                <td><img id="e" src="assets/images/puzzle-1-e.jpg"></td>
+                                <td><img id="f" src="assets/images/puzzle-1-f.jpg"></td>
+                            </tr>
+                            <tr>
+                                <td><img id="g" src="assets/images/puzzle-1-g.jpg"></td>
+                                <td><img id="h" src="assets/images/puzzle-1-h.jpg"></td>
+                                <td><img id="i" src="assets/images/puzzle-1-i.jpg"></td>
+                            </tr>
+                            <tr id="finish">
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <h4 class="text-light">FINISH</h4>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </section>
+            </div>
         </div>
-    </section>
+        <div class="row">
+            <!-- BB8 Timer -->
+            <div class="col bb8 hidden-desktop justify-content-center">
+                <div class="timer">
+                    <div class="timer-fill"></div>
+                </div>
+            <!-- BB8 Image -->
+                <img src="assets/images/bb8-img.png" alt="Image of BB8" class="bb8-img">
+            </div>
+            <!-- BB9E Image -->
+            <div class="col bb9e hidden-desktop justify-content-center">
+                <img src="assets/images/bb9e-img.png" alt="Image of BB9E" class="bb9e-img">
+            <!-- BB9E Timer -->
+                <div class="timer">
+                    <div class="timer-fill"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Desktop View -->
+        <div class="row hidden-mobile">
+            <!-- BB8 Timer -->
+            <div class="col bb8 hidden-mobile justify-content-center">
+                <div class="timer">
+                    <div class="timer-fill"></div>
+                </div>
+            <!-- BB8 Image -->
+                <img src="assets/images/bb8-img.png" alt="Image of BB8" class="bb8-img">
+            </div>
+             <!-- Puzzle -->
+            <div class="col hidden-mobile justify-content-center">
+                <section>
+                    <div class="game-container" oncontextmenu="return false;">
+                        <table>
+                            <tr id="start">
+                                <td>
+                                    <h4 class="text-light">START</h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img id="a" src="assets/images/puzzle-1-a.jpg"></td>
+                                <td><img id="b" src="assets/images/puzzle-1-b.jpg"></td>
+                                <td><img id="c" src="assets/images/puzzle-1-c.jpg"></td>
+                            </tr>
+                            <tr>
+                                <td><img id="d" src="assets/images/puzzle-1-d.jpg"></td>
+                                <td><img id="e" src="assets/images/puzzle-1-e.jpg"></td>
+                                <td><img id="f" src="assets/images/puzzle-1-f.jpg"></td>
+                            </tr>
+                            <tr>
+                                <td><img id="g" src="assets/images/puzzle-1-g.jpg"></td>
+                                <td><img id="h" src="assets/images/puzzle-1-h.jpg"></td>
+                                <td><img id="i" src="assets/images/puzzle-1-i.jpg"></td>
+                            </tr>
+                            <tr id="finish">
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <h4 class="text-light">FINISH</h4>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </section>
+            </div>
+            <!-- BB9E Image -->
+            <div class="col bb9e hidden-mobile justify-content-center">
+                <img src="assets/images/bb9e-img.png" alt="Image of BB9E" class="bb9e-img">
+            <!-- BB9E Timer -->
+                <div class="timer">
+                    <div class="timer-fill"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer>        
+        <a href="index.html" class="button">Into</a>
+        <a href="game.html" class="button">Game</a>
+        <a href="about.html" class="button">About</a>        
+    </footer>
+    
     <script src="assets/js/script.js"></script>
     <script src="assets/js/game-logic.js"></script>
 </body>

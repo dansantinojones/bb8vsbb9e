@@ -65,8 +65,7 @@ body {
 }
 
 .star-wars-intro .title-content > .content-header {
-  text-align: center;
-}
+  text-align: center; }
 
 /* Main Image Styles */
 
@@ -194,8 +193,220 @@ footer {
   border: 3px solid yellow;
   color: yellow;
   border-radius: 30px;
-    
+  }
+
+  a {
+    margin: 10px;
+  }
+
+    /* Styling specific to instuctions.html */
+
+body {
+  margin: 0;
 }
+
+#page-instructions {
+  color: #ffc909;
+  font-size: 1.2rem;
+  background: #050304;
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 2rem 2rem 0 2rem;
+}
+
+#container-heading {
+  position: relative;
+  font-size: 2.5rem;
+  font-weight: bold;
+  z-index: 2;
+}
+
+#container-heading > h2 {
+  margin: 0;
+}
+
+#container-game-story {
+  width: 90%;
+  clear: both;
+  margin: 2rem;
+} 
+
+.player-choice {
+  color: rgb(20,20,20);
+  background: #ffc909;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 50%;
+  padding: 1rem;
+}
+
+#face-off-image {
+  width: 50%;
+  position: relative;
+  bottom: 4rem;
+  z-index: 1;
+}
+
+#BB9E-choice {
+  float: left;
+  width: 20%;
+  border-radius: 5px;
+  padding: 0 1rem;
+  background-color: #413f40;
+  color: red;
+  margin: 2rem 0;
+}
+
+#BB8-choice {
+  float: right;
+  width: 20%;
+  border-radius: 5px;
+  padding: 0 1rem;
+  background-color: e0dde2;
+  color: #d26a2c;
+  margin: 1rem 0;
+}
+
+#supremacy-image {
+  width: 55%;
+  float: left;
+  margin: 2rem 0;
+}
+
+#list-instructions {
+  width: 41%;
+  float: right;
+  text-align: left;
+  padding: 1rem;
+  color: #a8afaf;
+}
+
+#list-instructions > ol > li {
+  margin-top: 0.75rem;
+}
+
+#list-instructions > h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+}
+
+@media screen and (max-width:900px) {
+  #face-off-image {
+    width: 80%;
+  }
+  #BB9E-choice {
+    width: 40%;
+  }
+  #BB8-choice {
+    width: 40%;
+  }
+  #list-instructions {
+    padding: 0;
+    width: 44%;
+  }
+  #supremacy-image {
+    margin: 4.5rem 0;
+  }
+  #container-heading > h2 {
+  font-size: 3rem;
+  }
+}
+
+@media screen and (max-width:600px) {
+  #page-instructions {
+    padding: 0.5rem 0.5rem 0 0.5rem;
+}
+  #container-heading > h2 {
+    font-size: 2rem;
+  }
+  #face-off-image {
+    bottom: 1rem;
+  }
+  #BB9E-choice, #BB8-choice {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+  } 
+
+
+@keyframes intro {
+  0% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+
+@-webkit-keyframes logo {
+  0% { -webkit-transform: scale(1); opacity: 1; }
+  50% { opacity: 1; }
+  100% { -webkit-transform: scale(0.1); opacity: 0; }
+}
+
+@-moz-keyframes logo {
+  0% { -moz-transform: scale(1); opacity: 1; }
+  50% { opacity: 1; }
+  100% { -moz-transform: scale(0.1); opacity: 0; }
+}
+
+@-ms-keyframes logo {
+  0% { -ms-transform: scale(1); opacity: 1; }
+  50% { opacity: 1; }
+  100% { -ms-transform: scale(0.1); opacity: 0; }
+}
+
+@-o-keyframes logo {
+  0% { -o-transform: scale(1); opacity: 1; }
+  50% { opacity: 1; }
+  100% { -o-transform: scale(0.1); opacity: 0; }
+}
+
+@keyframes logo {
+  0% { transform: scale(1); opacity: 1; }
+  50% { opacity: 1; }
+  100% { transform: scale(0.1); opacity: 0; }
+}
+
+@keyframes scroll {
+  0% { top: 100%; }
+  100% { top: -170%; }
+}
+
+@media screen and (max-width: 720px) {
+  .star-wars-intro .main-content {
+    font-size: 35px;
+  }
+  .star-wars-intro .title-content {
+    position: absolute;
+    top: 100%;
+    animation: scroll 100s linear 4s forwards;
+  }
+}
+
+footer {
+  background-color: black;
+  position:fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  z-index: 99999;
+  }
+  
+  .button {
+    background-color: black;    
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 20px;
+    cursor: pointer;
+    border: 3px solid yellow;
+    color: yellow;
+    border-radius: 30px;
+  }
   
 a {
   margin: 10px;
@@ -214,4 +425,19 @@ a {
   .button {
     padding: 5px 10px;
   }
+
 }
+
+  #container-game-story {
+    margin: 1rem 0.5rem;
+  } 
+  #list-instructions {
+    width: 100%;
+  }
+  #supremacy-image {
+    width: 100%;
+    margin: 0;
+  }
+ 
+}
+
