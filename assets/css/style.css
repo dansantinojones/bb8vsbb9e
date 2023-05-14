@@ -153,7 +153,7 @@ body {
 }
 
 #list-instructions {
-  width: 40%;
+  width: 41%;
   float: right;
   text-align: left;
   padding: 1rem;
@@ -180,4 +180,42 @@ body {
   #BB8-choice {
     width: 40%;
   }
+  #list-instructions {
+    padding: 0;
+    width: 44%;
+  }
+  #supremacy-image {
+    margin: 4.5rem 0;
+  }
+  #container-heading > h2 {
+  font-size: 3rem;
+  }
+}
+
+@media screen and (max-width:600px) {
+  #page-instructions {
+    padding: 0.5rem 0.5rem 0 0.5rem;
+}
+  #container-heading > h2 {
+    font-size: 2rem;
+  }
+  #face-off-image {
+    bottom: 1rem;
+  }
+  #BB9E-choice, #BB8-choice {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+  } 
+
+  #container-game-story {
+    margin: 1rem 0.5rem;
+  } 
+  #list-instructions {
+    width: 100%;
+  }
+  #supremacy-image {
+    width: 100%;
+    margin: 0;
+  }
+ 
 }
