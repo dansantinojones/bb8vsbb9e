@@ -25,10 +25,10 @@ Play on behalf of the First Order and help BB-9E to stop and disable the plucky 
 ### How to play
 
 - Decide who is going to be who
-- You will take it in turns with BB-8 going first
-- Click on the puzzle elements to rotate until the wires are all correctly joined up.
-- ? Extra info about turning taking ?
-- The winner is the ........
+- BB-8 you are trying to connect up the green wires and BB-9E you are trying to connect up the red wires.
+- Click on the puzzle elements to rotate them, trying to correctly connect up your wire.
+- You will take it in turns to try and win the puzzle with each player getting just ??seconds before your turn ends.
+- The winner is the first one to correctly connect their wire.
 
 ## Game deployment
 
