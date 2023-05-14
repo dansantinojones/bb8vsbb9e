@@ -206,9 +206,8 @@ footer {
   font-size: 1.2rem;
   background: #050304;
   margin: 0;
-  height: 100%;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   padding: 2rem 2rem 0 2rem;
 }
 
@@ -227,6 +226,7 @@ footer {
   width: 90%;
   clear: both;
   margin: 1.5rem;
+  font-size: 1.5rem;
 } 
 
 .player-choice {
@@ -250,8 +250,8 @@ footer {
   width: 20%;
   border-radius: 5px;
   padding: 0 1rem;
-  background-color: #413f40;
-  color: red;
+  background-color: #8b8887;
+  color: #991010;
   margin: 2rem 0;
 }
 
@@ -266,13 +266,13 @@ footer {
 }
 
 #supremacy-image {
-  width: 55%;
+  width: 50%;
   float: left;
-  margin: 5rem 0;
+  margin: 5.5rem 0;
 }
 
 #list-instructions {
-  width: 45%;
+  width: 46%;
   float: right;
   text-align: left;
   padding: 1rem;
@@ -293,6 +293,7 @@ footer {
   clear: both;
   text-align: center;
   font-size: 1.5rem;
+  padding: 2rem 0 3rem 0;
 }
 
 @media screen and (max-width:900px) {
@@ -335,6 +336,10 @@ footer {
     font-size: 1rem;
     padding: 0 0.5rem;
   } 
+  #container-game-story {
+  margin: 0 auto;
+  padding: 1rem 0;
+  }
 }
 /* End of styling for instructions.html */
 
