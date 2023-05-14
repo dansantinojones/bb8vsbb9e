@@ -1,13 +1,5 @@
 body {
-  height: 100%;
-  min-height: 100vh;
   margin: 0px;
-  background: url('/assets/images/background-image-stars.jpg') no-repeat center center fixed;
-  background-size: cover;
-  /* overflow: hidden;
-  font-family: 'Roboto';
-  margin: 50% 0 0 0%;
-  position: relative; */
 }
 
 .star-wars-intro {
@@ -17,16 +9,12 @@ body {
   font-family: "Droid Sans", arial, verdana, sans-serif;
   font-weight: 700;
   color: #EBD71C;
-  /* background-color: #000; */
+  background-color: #000;
   background: url('/assets/images/background-image-stars.jpg') no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
   position: relative;
 }
-
-/* .big {
-  font-size: 250px;
-} */
 
 .star-wars-intro p.intro-text {
   position: relative;
@@ -69,30 +57,6 @@ body {
   background-image: linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
   pointer-events: none;
 }
-
-/* .star-wars-intro .space-button {
-  color: #EBD71C;
-  border: 12px solid #EBD71C;
-  padding: 20px;
-  background: transparent;
-  text-decoration: none;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-}
-
-.star-wars-intro .space-button:hover {
-  background-color: #D2BE03;
-  border-color: #D2BE03;
-  color: black;
-}
-
-.star-wars-intro .space-button:active,
-.star-wars-intro .space-button:focus {
-  background-color: #B8A40A;
-  border-color: #B8A40A;
-  color: black;
-} */
 
 .star-wars-intro .title-content {
   position: absolute;
