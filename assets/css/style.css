@@ -131,7 +131,7 @@ body {
   width: 20%;
   border-radius: 5px;
   padding: 0 1rem;
-  background-color: black;
+  background-color: #413f40;
   color: red;
   margin: 2rem 0;
 }
@@ -141,8 +141,8 @@ body {
   width: 20%;
   border-radius: 5px;
   padding: 0 1rem;
-  background-color: white;
-  color: orange;
+  background-color: e0dde2;
+  color: #d26a2c;
   margin: 1rem 0;
 }
 
@@ -157,6 +157,7 @@ body {
   float: right;
   text-align: left;
   padding: 1rem;
+  color: #a8afaf;
 }
 
 #list-instructions > ol > li {
