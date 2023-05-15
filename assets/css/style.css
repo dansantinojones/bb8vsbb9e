@@ -1,4 +1,5 @@
 body {
+  background-image: url('/assets/images/background-image-stars.jpg');
   margin: 0px;
 }
 
@@ -438,4 +439,12 @@ a {
     padding: 5px 10px;
   }
 
+}
+
+
+.card img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 15px;
 }
