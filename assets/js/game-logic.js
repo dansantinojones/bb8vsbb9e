@@ -99,7 +99,7 @@ jQuery(document).ready(function ($) {
      // check for win 
      if ($('table tr td img.point-bb8').length === 9) { // count how many times class "point" exist
        setTimeout(function () {
-         alert("BB-8 wins!");
+        $('#bb8-win').modal('show');
        }, 600);
      }
    });
@@ -118,20 +118,10 @@ jQuery(document).ready(function ($) {
     // check for win 
     if ($('table tr td img.point-bb9').length === 9) { // count how many times class "point" exist
       setTimeout(function () {
-        alert("BB-9E wins!");
+        $('#bb9e-win').modal('show');
       }, 600);
     }
   });
 
 });
 
-// game sounds
-
-const audio = new Audio("assets/sounds/blaster.mp3");
-const buttons = document.querySelectorAll("td");
-
-buttons.forEach(button => {
-  button.addEventListener("click", () => {
-    audio.play();
-  });
-});
