@@ -13,6 +13,14 @@ body {
 
 /* -------------------------------------- Puzzle */
 
+.timer-element {
+    display: none;
+}
+
+.active-timer {
+    display: block;
+}
+
 section {
     display: flex;
     justify-content: center;
@@ -40,7 +48,7 @@ td img {
     max-width: 100%;
     max-height: 100%;
     border: #fff 1px solid;
-    transform: rotate(0deg);
+/*     transform: rotate(0deg); */
     transition: all 0.5s ease;
 }
 
