@@ -124,3 +124,14 @@ jQuery(document).ready(function ($) {
   });
 
 });
+
+// game sounds
+
+const audio = new Audio("assets/sounds/blaster.mp3");
+const buttons = document.querySelectorAll("td");
+
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    audio.play();
+  });
+});
